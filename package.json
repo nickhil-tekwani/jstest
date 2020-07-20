@@ -1,9 +1,16 @@
 {
   "name": "@tekwani/jstest",
+  "description": "Extremely lightweight testing package for Javascript.",
+  "homepage": "https://github.com/nickhil-tekwani/jstest",
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
     "underscore": "^1.10.2"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickhil-tekwani/jstest"
+  },
+  "author": "Nickhil Tekwani <tekwani@northeastern.edu>"
 }
