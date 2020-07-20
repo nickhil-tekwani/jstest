@@ -8,9 +8,13 @@
     "underscore": "^1.10.2"
   },
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nickhil-tekwani/jstest"
-  },
-  "author": "Nickhil Tekwani <tekwani@northeastern.edu>"
+  "repository": "nickhil-tekwani/jstest",
+  "author": "Nickhil Tekwani <tekwani@northeastern.edu>",
+  "keywords": [
+    "test",
+    "npm",
+    "package",
+    "nickhil",
+    "tekwani"
+  ]
 }
