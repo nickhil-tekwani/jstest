@@ -1,9 +1,20 @@
 const _ = require("underscore");
 
-module.exports = function isEqual(input, expectedResult) {
-  return _isEqual(input, expectedResult);
-};
+function isEqual(input, expectedResult) {
+  var result = _.isEqual(input, expectedResult);
+  var log = result ? "Test Passed" : "Test Failed";
+  console.log(log);
+  return result;
+}
 
-module.exports = function isNotEqual(input, expectedResult) {
-  return !_isEqual(input, expectedResult);
+function isNotEqual(input, expectedResult) {
+  var result = !_.isEqual(input, expectedResult);
+  var log = result ? "Test Passed" : "Test Failed";
+  console.log(log);
+  return result;
+}
+
+module.exports = {
+  isEqual: isEqual,
+  isNotEqual: isNotEqual,
 };
