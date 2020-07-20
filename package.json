@@ -1,0 +1,9 @@
+{
+  "name": "@tekwani/jstest",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "underscore": "^1.10.2"
+  },
+  "main": "index.js"
+}
